@@ -1,0 +1,213 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+* { padding: 0; margin: 0; }
+html {
+	/*overflow:scroll;
+	height:1900px;*/
+}
+a {
+ text-decoration: none;
+ color: #05227E;
+}
+
+body {
+ font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+ font-size: 13px;
+ background-color: #f6f6f6;
+}
+img {
+ border: 0;
+}
+
+#wrapper { 
+ margin: 0 auto;
+ width: 972px;
+
+}
+#header {
+ width: 950px;
+ float: left;
+ padding: 10px 10px 5px 10px;
+ font-size: 24px;
+ border: 1px solid #ccc;
+  color:#2E6E9E;
+ margin: 10px 0px 5px 0px;
+ background:#fff; 
+}
+#leftcolumn { 
+ color: #333;
+ border: 1px solid #ccc;
+ margin: 0px 5px 5px 0px;
+ width: 207px;
+ float: left;
+ background: #fff;
+ padding: 4px;
+}
+
+#leftcolumn .menu-block {
+ margin-bottom: 8px;
+}
+
+#leftcolumn .menu-block h3 {
+ font-size: 15px;
+/* background-color: #85A8FF; */
+ background-image:url(../../images/admin/panelbackground.png);
+ color: #fff;
+ padding: 2px 4px;
+}
+
+#leftcolumn .menu-block a {
+ padding: 4px 4px;
+ display: block;
+ border-bottom: 1px solid #ddd;
+ color:#2E6E9E;
+ font-weight:bold;
+ background-image:url(../../images/admin/subpanelbg.png);
+ font-size:11px;
+}
+
+#leftcolumn .menu-block a:hover {
+	background-color: #f6f6f6;
+	padding-left: 8px;
+	 background-image:url(../../images/admin/subpanelbg2.png);
+
+}
+
+#rightcolumn { 
+ float: right;
+ color: #333;
+ border: 1px solid #ccc;
+ margin: 0px 0px 5px 0px;
+ padding: 4px;
+ width: 740px;
+ display: inline;
+ background: #fff;
+}
+
+#rightcolumn h1 {
+ font-size:22px;
+ color: #05227E;
+ border-bottom: 1px solid #ccc;
+ padding:0 0 3px 0;
+ margin: 0 0 20px 0;
+}
+
+#footer { 
+ width: 962px;
+ clear: both;
+ color: #333;
+ border: 1px solid #ccc;
+ background: #fff;
+ margin: 0px 0px 10px 0px;
+ padding: 4px;
+ text-align:right;
+}
+
+/**********************************
+ * Global Styles
+ **********************************/
+fieldset {
+ padding: 4px;
+ border: 1px solid #ccc;
+}
+
+fieldset legend {
+ padding: 0 3px;
+ margin: 0 15px;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.small-font {
+ font-size: 10px;
+}
+
+/**********************************
+ * Table Form
+ **********************************/
+
+.table-form .label-cell, table.table-form .input-cell {
+ padding: 4px;
+ vertical-align: top;
+ text-align: left;
+}
+ 
+.table-form .label-cell {
+ width: 190px;
+}
+ 
+.table-form .button {
+ background-color: #eee;
+ padding: 4px;
+ margin: 10px 0 0 0;
+}
+
+.error-msg {
+ color: #760000;
+ font-size: 11px;
+ margin: 0 0 4px 0;
+}
+
+label.error {
+ color: #7E0000;
+ margin: 0 0 0 5px;
+}
+
+/**********************************
+ * msg_box
+ **********************************/
+
+div.msg_box {
+ border-style: solid;
+ border-width: 1px;
+ padding: 6px;
+ margin: 0 0 15px 0;
+}
+ 
+div.info {
+ border-color: #A0FF94;
+ background-color: #D3FFB6;
+ color: #0F440D;
+}
+
+div.error {
+ border-color: #7E0000;
+ background-color: #FFB5B2;
+ color: #7E0000;
+}
+
+div.bottoms_panel {
+	text-align: right;
+	margin: 0 0 10px 0;
+}
+
+#header_b {
+	text-align:right;
+}
+#header_b a {
+	display:block;
+	float:right;
+	margin-left: 20px;
+	 color:#2E6E9E;
+ font-weight:bold;
+
+}
+#header_b span {
+	font-size:12px;
+	display:block;
+	float:right;
+	padding:2px 0 0 3px;
+}
+#header_b img {
+	display:block;
+	float:right;
+}
