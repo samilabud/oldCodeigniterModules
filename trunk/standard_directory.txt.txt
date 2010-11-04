@@ -1,0 +1,28 @@
+Standard structure for each module
+------------------------------------
+
+Module_name (dir)
+
+	->css (dir)
+	    ->module_name (dir)
+
+	->js (dir)
+	    ->module_name (dir)
+
+	->images (dir)
+	    ->module_name (dir)
+
+	->system (dir)
+		->application (dir)
+			->views (dir)
+			->controllers (dir)
+			->models (dir)
+			->... (dirs)
+
+	->modules_info (dir)
+		->module_name (dir)
+			->readme.txt (file)
+			->script.sql (file)
+			->... (files)2
+			->... (files)
+

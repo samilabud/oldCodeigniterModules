@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*-------------------------- Contact Form ---------------------------------------*/
+
+#contactWrapper{							 
+	width:700px;
+	position:relative;
+	float:left;
+	margin-top:15px;
+}
+
+#contactWrapper .leftBox{						
+	width:307px;
+	position:relative;
+	float:left;
+}
+
+#contactWrapper .leftBox label{							 
+	display:block;
+	margin-top:12px;
+}
+
+#contactWrapper .leftBox input[type="text"]{						
+	border:solid #b6b5b5 1px;
+	padding:2px;
+	width:283px; 
+}
+
+#contactWrapper .leftBox .textarea{							
+	border:solid #b6b5b5 1px;
+	padding:2px;
+	width:283px;
+	height:80px; 
+}
+
+
+#contactWrapper .rightBox{						
+	width:359px;
+	position:relative;
+	float:left;
+	margin-left:20px;
+}
+
+#contactWrapper #map{						
+	width:324px;
+	height:240px;
+	float:left;
+	border:solid 1px #c7c7c7;
+	padding:4px;
+	margin-top:20px;
+}
+
+h5{
+	margin:0;
+	padding:0;
+	color:#686f75;
+	font-size:17px;
+	font-weight:normal;
+}
